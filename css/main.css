@@ -106,28 +106,40 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background:linear-gradient(#020024, #090979, #0092ff)
+  background:linear-gradient(#020024, #090979, #0092ff);
+  color: #fff;
 }
 
+header {
+    font-size: 3em; 
+    font-family: 'Playfair Display', serif;
+    font-weight: bold; 
+}
+
+main {
+    font-size: 1.5em; 
+}
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display:flex; 
   justify-content: space-between; 
+  border-top: solid 0.5px white; 
+  border-bottom: solid 0.5px white; 
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.35em;
+  font-size: 1.3em;
   height: 300px;
   display: flex; 
   width: 30%; 
   justify-content: center; 
   align-items: center; 
-  padding: 0 22px;
+  padding: 0 22px 0 0;
   opacity: 0.99;
   
 }
@@ -135,11 +147,16 @@ body {
 .div-2 {
     border-left: solid 0.5px white; 
     border-right: solid 0.5px white; 
+    padding-left: 22px; 
 }
 span {
     font-family: 'Playfair Display', serif;
+    font-weight: bold; 
 }
 
+footer img {
+    padding: 15px 19px 0 0; 
+}
 
 
 /* ==========================================================================
